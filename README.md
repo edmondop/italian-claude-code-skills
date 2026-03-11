@@ -22,10 +22,17 @@ for code quality balance.
 
 ## Installation
 
-Add as a Claude Code plugin:
+Clone and register as a local Claude Code plugin:
 
 ```bash
-claude plugin add edmondop/italian-claude-code-skills
+git clone https://github.com/edmondop/italian-claude-code-skills.git
+claude plugin add --local /path/to/italian-claude-code-skills
+```
+
+Or if you already have it cloned, just point Claude Code at it:
+
+```bash
+claude plugin add --local /path/to/italian-claude-code-skills
 ```
 
 ## Examples
